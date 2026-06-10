@@ -1,0 +1,20 @@
+@RestController
+Spring Boot annotation.
+tells to Spring:
+👉 “This class will handle HTTP requests and return data as a response (like JSON).”
+
+
+why @RestController
+Build REST APIs
+return data like JSON
+Avoid writing extra code for @ResponseBody
+
+
+ When is @RestController used?
+ You want to return data (like JSON), not HTML pages.
+  when someone sends a GET request to /all-types, you return a list of jewel types.
+
+
+
+What is an “HTML view”?
+In Spring Boot (or traditional Spring MVC), a view means an HTML page (or JSP/Thymeleaf page) that is shown in the browser.
